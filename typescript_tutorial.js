@@ -9,3 +9,12 @@ var addName = function (name, age) {
     return "Your name is ".concat(name, " and age is ").concat(age);
 };
 console.log(addName(obj.name, obj.age));
+//functions and objects -->
+var returnFunc = function (name, age) {
+    return { newName: name, newAge: age };
+};
+var returnNewFunc = function (name, age) {
+    return { newName: name, newAge: age };
+};
+console.log(returnFunc(obj.name, obj.age));
+console.log(returnNewFunc(obj.name, obj.age));
