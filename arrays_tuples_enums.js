@@ -1,4 +1,6 @@
+"use strict";
 //single type
+Object.defineProperty(exports, "__esModule", { value: true });
 var arr = [];
 arr.push("adil");
 //union

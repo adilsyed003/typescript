@@ -27,3 +27,5 @@ enum user1 {
   THIRD,
 }
 const myChoice = user1.SECOND;
+
+export {};
